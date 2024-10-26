@@ -1,0 +1,47 @@
+.requiremnt-section{
+    background-color: #072F57;
+}
+.points{
+    color: #ffffff;
+}
+.check {
+    background-color: #32BA7C;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 3px;
+    height: 20px;
+    width: 20px;
+}
+.choose{
+    display: flex;
+    text-align: left;
+    gap: 4px;
+}
+
+.buyer{
+    text-decoration: underline;
+    text-underline-offset: 20px;
+   
+}
+
+.youtube-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+}
+
+.tab {
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+    color: #ffffff;
+}
+
+.tab.active {
+    color: #EB7150;
+    border-bottom: 2px solid #EB7150; /* Adds the underline */
+}
+

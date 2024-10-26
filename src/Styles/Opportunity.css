@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.places {
+    color: #3E3E3E;
+    padding: 10px 0px;
+    width: 100%;
+    border: 1px solid #E7760D;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.places:hover{
+    background-color: #00732F;
+    color: #FFFFFF;
+    border: none;
+}
+.opportunity-title,
+.opportunity-details {
+    font-family: 'Poppins', sans-serif;
+}
+
+.signUp {
+    padding: 10px 0px;
+    background-color: #00732F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 16rem;
+    cursor: pointer;
+}
+.signUp:hover{
+    background-color: #E7760D;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .opportunity-title {
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .opportunity-title {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .opportunity-title {
+        font-size: 38px;
+    }
+}

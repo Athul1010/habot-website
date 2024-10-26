@@ -1,0 +1,17 @@
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.submit{
+    height: 40px;
+    width: 9rem;
+    border: none;
+    color: #00732F;
+    border: 1px solid #00732F;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+

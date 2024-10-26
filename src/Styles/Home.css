@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.main-section{
+    overflow: hidden;
+}
+.home {
+    background-image: url('../Assets/Rectangle\ 1.png');  
+    background-size: cover;                   
+    background-repeat: no-repeat;             
+    background-position: center; 
+    padding: 14rem 0rem;
+}
+.title h1{
+    
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.title h2{
+    
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.buyer{
+    padding: 30px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.buyer span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.buyer a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.searchBtn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+.searchBtn{
+    padding: 12px 20px;
+    color: #FFFFFF;
+    background-color: #00732F;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    .title h1 {
+        font-size: 30px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .service{
+        flex-direction: column;
+    }
+    .search-field{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .title h1 {
+        font-size: 30px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .service{
+        flex-direction: column;
+    }
+    .search-field{
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .title h1,
+    .title h2{
+        font-size: 55px;
+        
+    }
+    .service{
+        flex-direction: row;
+    }
+    
+}
