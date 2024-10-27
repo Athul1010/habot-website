@@ -6,23 +6,23 @@ import youTube from '../Assets/youtube icon.png';
 import { FaCheck } from "react-icons/fa";
 
 const Requirements = () => {
-    const [activeTab, setActiveTab] = useState('Buyer'); // Initially set to "Buyer"
+    const [activeTab, setActiveTab] = useState('Buyer');
 
     return (
         <div className='container-fluid requiremnt-section'>
             <div className="container my-5">
                 <div className="row align-items-center">
 
-                    {/* Image Section */}
-                    <div className="col-xl-6 col-lg-6 col-md-12 text-center mb-4 mb-lg-0">
+                    
+                    <div className="col-xl-6 col-lg-6 col-md-12 text-center mb-4 mb-lg-0" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div className="position-relative d-inline-block">
                             <img src={requirements} alt="Requirements" className="img-fluid" />
                             <img src={youTube} alt="YouTube Icon" className="youtube-icon" />
                         </div>
                     </div>
 
-                    {/* Text Section */}
-                    <div className="col-xl-6 col-lg-6 col-md-12">
+                    
+                    <div className="col-xl-6 col-lg-6 col-md-12 contents" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
                         {/* Buyer and Supplier Titles */}
                         <div className="types d-flex justify-content-around">
@@ -47,10 +47,12 @@ const Requirements = () => {
                                     <div className="text-start mb-3">
                                         <span><FaCheck className='check' /> Post your requirements</span>
                                     </div>
-                                    <div className="text-start mb-3">
-                                        <span><FaCheck className='check' /> Sit back for multiple suppliers to contact you.</span>
+                                    
+                                    <div className="choose mb-3">
+                                        <span><FaCheck className='check' /></span>
+                                        <span>Sit back for multiple suppliers to contact you.</span>
                                     </div>
-                                    <div className="choose">
+                                    <div className="choose mb-3">
                                         <span><FaCheck className='check' /></span>
                                         <span>Choose among the suppliers based on the ratings and reviews.</span>
                                     </div>
@@ -59,14 +61,15 @@ const Requirements = () => {
                             {activeTab === 'Supplier' && (
                                 <div>
                                     <div className="text-start mb-3">
-                                        <span><FaCheck className='check' /> ajsa qwbhbdksd dwkdwhkuwd wkbdk</span>
+                                        <span><FaCheck className='check' /> Lorem ipsum dolor sit amet consectetur.</span>
                                     </div>
-                                    <div className="text-start mb-3">
-                                        <span><FaCheck className='check' /> wsndesn dewed iwdwd dewkdnekwdnl</span>
-                                    </div>
-                                    <div className="choose">
+                                    <div className="choose mb-3">
                                         <span><FaCheck className='check' /></span>
-                                        <span>dsbdkjas kednknasnd ndjnd kwqdn wq,dnwaaw dlwk </span>
+                                        <span> Lorem ipsum dolor sit amet consectetur.</span>
+                                    </div>
+                                    <div className="choose mb-3">
+                                        <span><FaCheck className='check' /></span>
+                                        <span> Lorem ipsum dolor sit amet consectetur.</span>
                                     </div>
                                 </div>
                             )}

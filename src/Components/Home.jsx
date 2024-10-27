@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/Home.css'
-import Navbar from './Navbar'
+
 
 //mui
 
@@ -10,17 +10,16 @@ import IconButton from '@mui/material/IconButton';
 
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { Link } from 'react-router-dom';
-import Opportunity from './Opportunity';
-import Requirements from './Requirements';
+
+
 //mui
 
 const Home = () => {
   return (
     <div className='main-section'>
-      <Navbar />
+      
       <div className='container-fluid home'>
-        <div className='container'>
+        <div className='container' data-aos="zoom-in-up">
           <div className='title'>
             <h1>Are You a Supplier?</h1>
             <h2>Explore Matching Opportunities.</h2>
@@ -67,11 +66,10 @@ const Home = () => {
             
           </div>
   
-          <p className='buyer'><span>Are you a buyer?</span> <Link>Click here if you are looking to post a requirements</Link></p>
+          <p className='buyer'><span className='buyer-one'>Are you a buyer?</span> <span className='buyer-two'>Click here if you are looking to post a requirements</span></p>
         </div>
       </div>
-      <Opportunity/>
-      <Requirements/>
+      
     </div>
   )
 }

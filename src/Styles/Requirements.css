@@ -1,8 +1,11 @@
 .requiremnt-section{
     background-color: #072F57;
+    padding: 60px 0px;
 }
 .points{
     color: #ffffff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 .check {
     background-color: #32BA7C;
@@ -16,12 +19,6 @@
     display: flex;
     text-align: left;
     gap: 4px;
-}
-
-.buyer{
-    text-decoration: underline;
-    text-underline-offset: 20px;
-   
 }
 
 .youtube-icon {
@@ -42,6 +39,18 @@
 
 .tab.active {
     color: #EB7150;
-    border-bottom: 2px solid #EB7150; /* Adds the underline */
+    border-bottom: 2px solid #EB7150; 
+}
+
+.types h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+  }
+  
+@media only screen and (min-width: 992px){
+    .contents{
+        margin-bottom: 8rem;
+    }
 }
 

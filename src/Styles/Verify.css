@@ -1,0 +1,51 @@
+
+
+.verify-section{
+    background-color: #E8FBFF;
+    padding: 80px 0px;
+}
+.verify-btn{
+    padding: 8px 30px;
+    color: #FFFFFF;
+    background-color: #EB7150;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
+.verify-btn:hover{
+    background-color: #00732F;
+}
+
+.find-you{
+    border-bottom: 4px solid #EB7150;
+}
+.find{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+@media only screen and (max-width: 992px){
+    .verify-btn{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .find{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .find{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .find{
+        font-size: 38px;
+    }
+}

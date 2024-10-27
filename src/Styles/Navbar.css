@@ -1,3 +1,8 @@
+.nav-link, .dropdown-item {
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
 .drop{
     display: flex;
     justify-content: center;
@@ -8,10 +13,23 @@
 .submit{
     height: 40px;
     width: 9rem;
+    font-weight: 700;
+    font-size: 15px;
     border: none;
     color: #00732F;
     border: 1px solid #00732F;
     border-radius: 5px;
     background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+.submit:hover{
+    background-color: #EB7150;
+    border: none;
+    color: #ffffff;
+}
+@media only screen and (max-width: 992px){
+    .drop{
+        flex-direction: column;
+    }
 }
 

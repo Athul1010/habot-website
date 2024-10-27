@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+.opportunity {
+    /* padding: 60px 0px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .places {
     color: #3E3E3E;
@@ -12,11 +17,13 @@
     font-weight: 500;
     font-size: 18px;
 }
-.places:hover{
+
+.places:hover {
     background-color: #00732F;
     color: #FFFFFF;
     border: none;
 }
+
 .opportunity-title,
 .opportunity-details {
     font-family: 'Poppins', sans-serif;
@@ -36,15 +43,18 @@
     width: 16rem;
     cursor: pointer;
 }
-.signUp:hover{
+
+.signUp:hover {
     background-color: #E7760D;
-    
+
 }
 
 @media only screen and (max-width: 600px) {
     .opportunity-title {
         font-size: 25px;
-
+    }
+    .signUp{
+        margin-bottom: 20px;
     }
 }
 
@@ -52,10 +62,18 @@
     .opportunity-title {
         font-size: 25px;
     }
+    .signUp{
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .opportunity-title {
         font-size: 38px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .signUp{
+        margin-bottom: 0px;
     }
 }

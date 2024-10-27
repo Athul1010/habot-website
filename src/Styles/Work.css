@@ -1,0 +1,60 @@
+.work{
+    padding: 100px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.set-one{
+    background-color: #E8FBFF;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    padding: 40px 20px;
+}
+.set-one:hover{
+    transform: scale(1.1);
+}
+.set-two{
+    padding: 40px 20px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+.set-two:hover{
+    transform: scale(1.1);
+}
+.set-one img{
+    height: 50px;
+    padding-bottom: 5px;
+}
+
+.set-two img{
+    height: 50px;
+}
+.how-works h1{
+    font-weight: 700;
+}
+.how-works p{
+    font-weight: 400;
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .how-works h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .how-works h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .how-works h1{
+        font-size: 38px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .work-details{
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+}
